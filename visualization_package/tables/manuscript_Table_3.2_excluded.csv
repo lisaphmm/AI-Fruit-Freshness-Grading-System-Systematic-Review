@@ -1,0 +1,20 @@
+﻿Study,Reason,Detail
+Brilliantina et al. (2026),Not a fruit-surface image input,"Gas, thermal and acoustic sensors; not image-based"
+"Chen, Y. J. et al. (2022)",Not a fruit-surface image input,Acoustic signals; no image predictor
+Ibba et al. (2021),Not a fruit-surface image input,Bioimpedance; no image predictor
+Ktenioudaki et al. (2022),Not a fruit-surface image input,Hyperspectral-only input; continuous quality and shelf-life regression
+Lee et al. (2024),Not a fruit-surface image input,Destructive GC-MS metabolomics; no image predictor
+Masuduzzaman et al. (2026),Not a fruit-surface image input,Temperature/humidity sensor model; no learned image classifier
+Skolik et al. (2019),Not a fruit-surface image input,ATR-FTIR spectroscopy; no image predictor
+Tan et al. (2025),Not a fruit-surface image input,Raman spectroscopy of excised peel
+Worasawate et al. (2022),Not a fruit-surface image input,"Point colour sensor, weight and capacitance; not camera images"
+Xuan et al. (2022),Not a fruit-surface image input,"Hyperspectral-only input; continuous SSC, firmness and size regression"
+Zhu et al. (2025),Not a fruit-surface image input,"Hyperspectral-only input; colour, SSC and firmness regression"
+Ibrahim et al. (2016),Outcome out of scope,Shape and mass sorting only
+Nouri et al. (2025),Outcome out of scope,Continuous firmness regression from active vibration video
+Singh et al. (2026),Outcome out of scope,Nutritional-quality regression; grades derived from destructive nutrient thresholds
+Sonwani et al. (2022),Outcome out of scope,Produce-type identification plus sensor alerts; no validated freshness endpoint
+Osman et al. (2022),No original model / metric,Descriptive clustering and photogrammetry; no held-out classification metric
+Ratprakhon et al. (2020),No original model / metric,Calibrated colour measurement; no trained classifier or accuracy
+Haidar et al. (2012),Outside 2016–2026,Published 2012 (outside 2016-2026 window); date-variety identification
+Kavdir & Guyer (2004),Outside 2016–2026,"Published 2004 (outside window); monochrome NIR defect classification, not RGB"

@@ -1,0 +1,42 @@
+﻿id,study,D1_patient_selection,D2_index_test,D3_reference_standard,D4_flow_timing,overall_risk_of_bias,A1_sample_setting,A2_index_test,A3_target_condition,rationale
+P001,Wu et al. (2026),U,L,L,L,U,H,H,L,"D1 lab collection, 150 fruit; D2 fruit-ID confined to one partition (test and validation combined); D3 daily labels through spoilage; A1 controlled lab; A2 RGB+spectra"
+P005,Ahmad et al. (2026),U,U,U,L,U,H,L,L,"D1 public studio dataset not collected by authors; D2 10-fold CV with 70/15/15 inside each fold, fruit grouping not stated; D3 stage labels inherited from source; A1 consistent studio illumination"
+P008,Li et al. (2021),U,L,H,U,H,U,L,H,"D2 independent 300-fruit test (headline); augmentation preceded the random split in development evaluation; D3 grades from appearance, criteria not specified; A1 time/angle/light varied"
+P009,Kripa & Jeyalakshmi (2026),U,U,H,H,H,H,H,L,"D2 fruit-identity split but confusion matrices total 490 vs 120 test; D3 classes derived by k-means on biochemical vectors that are also predictors; D4 CGAN/SMOTE expansion (2,018 synthetic pairs, train-only)"
+P010,Zhuang et al. (2019),U,L,H,L,H,H,L,L,"D2 one image per fruit, separate 121-image test; D3 maturity stages defined from peel appearance; A1 fixed lab set-up"
+P011,"Liu, Y. et al. (2024)",U,U,L,L,U,H,H,L,"D2 split proportions inconsistent, fruit grouping not stated, matrix has 169 observations; D3 skin plus cross-section red coverage; A2 RGB+Vis/NIR+haptics"
+P013,"Liu, X. et al. (2025)",U,H,H,H,H,H,H,H,"D2/D4 minority-class augmentation not limited to training; D3 grade score includes red ratio and circularity, which are model inputs; A2 RGB+Vis/NIR"
+P015,Olisah et al. (2024),L,U,U,U,U,L,H,L,"D1 two commercial UK farms; D2 grouping not stated, no farm hold-out; D3 subjective ripeness (trained assessor on one farm, non-expert on the other); D4 blur/reference failures excluded; A2 two-band 700/770 nm imaging"
+P017,Ismail & Malik (2022),U,U,H,U,H,L,L,U,"D1 secondary datasets, run-time test only 30 and 32 fruit; D3 labels from appearance; D4 apple N 8,791 vs 8,639; A3 apple defect task has no decay class"
+P018,Wei et al. (2022),L,H,L,U,H,L,L,L,"D2 hidden neurons selected on test accuracy; D3 maturity coefficient from SSC, acid and berry traits; A1 greenhouse imaging"
+P019,Zhou et al. (2021),L,H,H,U,H,L,L,L,"D2 80/20 train/validation only, overlapping UAV views; D3 manual appearance labels; A1 field imaging"
+P020,Wakchaure et al. (2024),H,U,H,U,H,L,L,L,"D1 only 455 of 2,275 images (defect-free, ideal colour transition) retained; D2 random split, no grouping; D3 areole-opening appearance"
+P022,Jaramillo-Acevedo et al. (2020),U,U,U,U,U,U,L,L,"D2 no train/validation/test counts, 65 evaluation samples; D3 label assignment criterion unclear; A1 illumination varied with flash"
+P024,Mousse et al. (2024),H,H,H,H,H,U,L,L,"D1 internet images; D2 train/validation only, augmented; D4 augmentation-expanded; draft version of the paper"
+P025,Chuquimarca et al. (2023),U,U,L,H,H,H,L,L,"D2 daily images of the same fruit, grouping not reported; D3 storage-day bands; D4 rotting images discarded, synthetic expansion"
+P026,"Wang, L. (2022)",U,U,U,U,U,H,L,H,"D2 all 326 images described as test, training split not reported; D3 professional grading; A1 closed box"
+P027,Xie et al. (2024),H,U,H,L,H,U,L,L,D1 only 30 sugar apples; D2 random image split from 30 fruit; D3 expert-checked annotation of appearance
+P028,Abdullah (2025),H,U,U,H,H,U,L,L,D1/D4 public and web sources mixed; D2 metrics described as validation and as test; D3 inherited labels
+P029,Ji et al. (2023),L,U,L,L,U,L,L,H,"D2 image-level split, independence of 300 online fruit not stated; D3 national grading standard GB/T 10651-2008; A1 conveyor line"
+P030,Villasenor-Aguilar et al. (2024),H,H,H,L,H,H,L,L,D1 75 fruit; D2 no held-out set; D3 colour-category labels from the input colour index
+P031,"Liu, C. et al. (2023)",U,U,L,L,U,U,L,H,"D2 original-image split, no fruit grouping or validation set; D3 modified Codex STAN 316-2014; Bad grade mixes unripe, rotten and other defects"
+P033,Yang et al. (2024),U,U,U,U,U,H,L,L,"D1/D4 600 of 1,500 images retained; D2 Figure 9 vs Table 1 test counts conflict, daily repeated imaging; D3 peel grades mapped to commercial periods"
+P034,Kosasih et al. (2023),H,H,H,U,H,U,L,L,D1 45 images; D2 15-image test; D3 appearance; identical training/test vector
+P035,Yin et al. (2022),U,U,H,L,H,H,L,U,"D2 random 6:2:2 image split, evaluation described as validation and test; D3 defect appearance labels; A3 defect classes include rot"
+P036,Reka et al. (2024),H,U,H,H,H,U,L,L,"D1/D4 multi-source dataset, counts and split not given; D2 evaluation subset unclear; D3 visual labels (banana day classes anchored to storage days)"
+P038,Song et al. (2023),L,H,H,H,H,L,L,L,D2/D4 broken class augmented before split (260 augmented images in test); D3 peel appearance; A1 orchard imaging
+P039,Cai et al. (2022),U,L,L,L,U,H,H,L,"D1 inoculated fruit, lesion facing camera; D2 fruit-level hold-out (79/80); D3 Penicillium inoculation, tissue cutting; A2 680-nm structured illumination, monochrome"
+P040,Dao et al. (2023),L,H,H,H,H,L,L,H,"D2/D4 augmentation before split; D3 visual good/bad labels; A1 conveyor prototype trial; A3 NG class mixes cracks, rot, pests"
+P041,Sugumar et al. (2019),U,H,H,U,H,H,L,L,"D2 25 test images per variety, no validation; D3 colour/size reference derived from inputs"
+P042,Trieu & Thinh (2023),L,L,H,L,H,H,H,H,D2 459/136/137 fruit-level split; D3 grade rules reuse the input features; A2 image + load cell
+P043,"Wang, J. et al. (2022)",U,H,L,U,H,H,H,H,D2 rule thresholds tested on the samples used to design them; D3 adapted national grading rules and Brix; A2 RGB + NIR
+P044,Khatun et al. (2024),L,U,H,U,H,L,L,L,"D1 three farms; D2 random image split, augmentation order unclear; D3 expert guidance, no laboratory validation"
+P046,Nguyen et al. (2024),U,H,H,U,H,U,L,H,"D2 starch thresholds calibrated and evaluated on the same 72 fruit; D3 technician ratings, no gold standard; A3 scald severity, not decay"
+P047,Liang et al. (2022),U,L,L,L,U,L,L,H,D2 separate 194 supermarket fruit tested online; D3 local grading rule and defect area; A3 defect-area grades
+P050,"Chen, M.-C. et al. (2022)",U,U,U,U,U,U,L,H,D1/D2/D4 totals and split ratios conflict across tables; D3 defect definitions not reported
+P051,Trinh & Nguyen (2023),U,H,H,H,H,L,L,L,D2 split and support not reported; D3 colour annotation; D4 stage definitions (2/3/4/9) and pre-training data inconsistent
+P052,Cheng et al. (2022),L,U,H,U,H,L,L,U,"D2 video-derived frames, no grouping; D3 expert appearance annotation; A1 orchard video"
+P053,Fahad et al. (2022),H,U,H,H,H,U,L,L,D1/D4 mobile and internet sources mixed; D3 manual appearance labels; includes medium-fresh class
+P054,Kazi & Panda (2022),H,H,H,U,H,U,L,L,"D1 Kaggle images; D2 best architecture chosen on test scores, split percentages inconsistent; D3 appearance folders"
+P055,Mukhiddinov et al. (2022),H,U,H,H,H,U,L,L,"D1/D4 phone and web images mixed; D2 split ratios and 2,000-image matrix subset do not reconcile; D3 manual boxes"
+P056,Sofian et al. (2024),H,H,U,H,H,U,L,L,D1 pre-augmented Kaggle data; D2 re-split without grouping (augmented siblings); D4 pre-augmented dataset

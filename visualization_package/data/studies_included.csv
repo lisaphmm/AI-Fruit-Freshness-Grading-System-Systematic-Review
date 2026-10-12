@@ -1,0 +1,42 @@
+﻿id,study,year,species,task,decision_levels,model_family,multimodal,data_availability,tier,best_accuracy,other_metrics,sample_n,sample_unit,explicit_decay_class,shelf_life_anchor,headline_source_conflict,internal_inconsistency,model
+P001,Wu et al. (2026),2026,avocado,Freshness,,FM,True,None,II,,MAE 0.94-7.10 (ordinal label); MSE 1.75-82.3,12000,images (150 fruit),False,True,False,True,GPT-4o + GLIP/SAM + BERT spectral encoder; ResNet/ViT/Swin-V2 heads
+P005,Ahmad et al. (2026),2026,mango,Freshness,5,CNN,False,Public,III,99.2,Proposed SE-DBIRNet 98.2 (F1 96.1),4428,images,True,False,True,True,SE-DBIRNet (dual-path residual + SE)
+P008,Li et al. (2021),2021,apple,Quality,3,CNN,False,None,II,95.33,,3600,images (+300 test fruit),False,False,False,False,Custom 6-conv CNN; Inception V3; HOG/GLCM+SVM
+P009,Kripa & Jeyalakshmi (2026),2026,mango,Maturity,3,CNN,True,On request,II,97.86,RGB-only fusion 91.52,600,observations (120 fruit),False,False,True,True,DenseNet201+Inception-ResNetV2+EfficientNetV2 fusion + biochemical encoder
+P010,Zhuang et al. (2019),2019,banana,Maturity,4,CL,False,None,II,100.0,,321,images/fruit,False,False,False,False,"NB / LDA / SVM on colour, LBP, HOG"
+P011,"Liu, Y. et al. (2024)",2024,tomato,Maturity,3,CNN,True,None,II,99.4,RGB-only VGG16 94.2,856,images (214 fruit),False,False,True,True,VGG16 + 1D-CNN + LSTM fusion
+P013,"Liu, X. et al. (2025)",2025,plum,Quality,3,CNN,True,On request,II,100.0,RGB-only VGG16 85.71,2340,images (780 fruit),False,False,True,True,VGG16 + 1D-CNN + handcrafted features (Bi-Mod Hybrid Net)
+P015,Olisah et al. (2024),2024,blackberry,Maturity,2,CNN,True,On request,I,95.1,Synthetic perturbation 92.7 / 90.2,201,images (301 fruit),False,False,False,True,VGG16 twin-input bootstrap ensemble + stacking
+P017,Ismail & Malik (2022),2022,apple; banana,Quality,2,CNN,False,None,I,99.5,Banana 98.9; run-time 96.7 / 93.8,8939,"images (8,639 apple + 300 banana)",True,False,True,True,EfficientNet B0-B2 stack; EfficientNet-B2 embedded
+P018,Wei et al. (2022),2022,grape,Maturity,4,CL,False,On request,I,88.0,,295,bunches/samples,False,False,True,True,BPNN on colour features
+P019,Zhou et al. (2021),2021,strawberry,Maturity,7,DET,False,None,I,,mAP 0.73-0.89,4859,images,True,False,False,False,YOLOv3
+P020,Wakchaure et al. (2024),2024,custard apple,Maturity,5,CL,False,On request,I,100.0,,455,images,False,False,False,False,K-means segmentation + SVM
+P022,Jaramillo-Acevedo et al. (2020),2020,avocado,Maturity,3,CL,False,None,II,88.0,Mean of class rates 100/80/85,130,fruit,False,False,True,True,MLP on RGB means + GLCM
+P024,Mousse et al. (2024),2024,tomato,Maturity,5,DET,False,None,III,97.06,"Validation set (2,912/3,000)",,not reported,False,False,True,False,Superpixel+CNN detector; attention RNN/LSTM classifier
+P025,Chuquimarca et al. (2023),2023,banana,Maturity,4,CNN,False,None,II,91.7,Real-only 87.2,3495,"real images (+161,280 synthetic)",False,True,True,True,"CIDIS CNN, synthetic pre-training"
+P026,"Wang, L. (2022)",2022,kiwifruit,Quality,5,CL,False,None,II,97.5,,326,images,False,False,False,True,Deep extreme learning machine
+P027,Xie et al. (2024),2024,sugar apple,Maturity,3,SEG,False,On request,II,,mIoU 89.95; pixel acc. 96.6,1000,images (30 fruit),True,False,False,False,ECD-DeepLabv3+
+P028,Abdullah (2025),2025,apple; banana; mango; orange; strawberry,Freshness,2,CNN,False,Public,III,100.0,,5997,images,True,False,True,True,"ResNet50, MobileNetV2, VGG16, EfficientNetB0"
+P029,Ji et al. (2023),2023,apple,Quality,3,TR,False,On request,I,94.0,Offline precision/accuracy 94.46,1244,images (300 online fruit),False,False,False,True,YOLOv5s + Swin Transformer
+P030,Villasenor-Aguilar et al. (2024),2024,orange,Maturity,4,CL,False,Public,II,,R2 0.95-0.98; MSE reported,75,fruit,False,False,True,True,Takagi-Sugeno fuzzy / ANFIS
+P031,"Liu, C. et al. (2023)",2023,passion fruit,Quality,4,DET,False,On request,II,,mAP50 95.36; F1 89.3,1114,images,False,False,False,False,ATC-YOLOv5
+P033,Yang et al. (2024),2024,banana,Freshness,3,CNN,False,On request,II,98.8,Recalculated 98.33 (118/120),600,images,False,True,True,True,ResNet-101
+P034,Kosasih et al. (2023),2023,banana,Maturity,6,CL,False,None,II,86.67,SVM 80.0,45,images,False,False,True,True,Naive Bayes / SVM on grayscale histogram statistics
+P035,Yin et al. (2022),2022,apple,Quality,5,CNN,False,On request,II,95.64,,11020,images,True,False,True,True,OB-Net (double-branch ResNet-18)
+P036,Reka et al. (2024),2024,apple; banana; orange; papaya; guava,Freshness,2,CNN,False,None,III,95.0,Banana storage-day RF 88.0,,not reported,True,True,True,True,"Basic CNN, VGG16, InceptionV3; RF/GNB on hue"
+P038,Song et al. (2023),2023,cherry,Freshness,4,TR,False,On request,I,98.5,Recalculated 98.45 (828/841),4669,images,True,False,True,True,Swin-T features + MLP
+P039,Cai et al. (2022),2022,orange,Freshness,2,CL,True,On request,II,98.8,All 280 fruit 96.4,280,fruit,True,False,False,False,"PLS-DA, SVM, LS-SVM, KNN on GLCM"
+P040,Dao et al. (2023),2023,tomato,Quality,2,DET,False,None,I,94.4,Offline mAP 99.5 (validation),370,images (250 trial fruit),False,False,False,False,CNN-YOLOv8
+P041,Sugumar et al. (2019),2019,citrus,Maturity,2,CL,False,None,II,100.0,PKM rotten false negatives 13%,650,images (claimed),True,False,False,False,KNN on colour and geometry
+P042,Trieu & Thinh (2023),2023,mango,Quality,3,CL,True,None,II,98.3,Cross-validation curve,732,fruit,False,False,True,False,Random forest
+P043,"Wang, J. et al. (2022)",2022,apple,Quality,4,CL,True,Public,II,96.67,,120,fruit (integrated trial),False,False,False,False,Rule-based thresholds + CARS-PLS
+P044,Khatun et al. (2024),2024,dragon fruit,Maturity,2,CNN,False,Public,I,98.0,Maturity 90.0,3780,images,False,False,False,True,ResNet-50
+P046,Nguyen et al. (2024),2024,apple; pear,Quality,5,SEG,False,None,II,,Pearson r 0.78-0.96,1553,fruit (scald),False,False,False,False,Mask R-CNN + image analysis
+P047,Liang et al. (2022),2022,apple,Quality,3,DET,False,On request,I,92.42,Recalculated 94.33 (183/194),3000,images (194 test fruit),False,False,True,True,BiSeNetV2 + pruned YOLOv4
+P050,"Chen, M.-C. et al. (2022)",2022,apple; orange; lemon,Quality,2,DET,False,None,II,,Avg P/R/F1 88-89,6381,images,False,False,True,True,Tiny-YOLOv3 + CNN / autoencoder
+P051,Trinh & Nguyen (2023),2023,pineapple,Maturity,,DET,False,Public,I,,mAP 96.8 / 98.76,50000,images (claimed),False,False,True,True,YOLOv5
+P052,Cheng et al. (2022),2022,tomato,Quality,4,DET,False,None,I,,mAP 99.7-100,2000,video frames,False,False,False,False,YOLOv4
+P053,Fahad et al. (2022),2022,apple; banana; guava; orange; lemon; tomato,Freshness,3,DET,False,Public,III,82.2,mAP50 0.840,60059,images,True,False,True,True,VGG16; YOLOv5m
+P054,Kazi & Panda (2022),2022,apple; banana; orange,Freshness,2,CNN,False,Public,III,99.7,,13599,images,True,False,True,True,"AlexNet, VGG16, ResNet-50 (not pretrained)"
+P055,Mukhiddinov et al. (2022),2022,apple; banana; orange; strawberry; mango,Freshness,2,DET,False,Public,III,,AP50 73.5 (detector),12000,images,True,False,True,True,Improved YOLOv4
+P056,Sofian et al. (2024),2024,apple; banana; orange,Freshness,2,CNN,False,Public,III,97.61,,30357,images,True,False,True,True,"EfficientNetV2-S, MobileNetV2, VGG19"

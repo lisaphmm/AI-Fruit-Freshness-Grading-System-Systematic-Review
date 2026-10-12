@@ -1,0 +1,42 @@
+﻿No.,Study,Species,Task,Levels,Model,Data,Tier,Acc. (%)
+1,Abdullah (2025),"apple, banana, mango, orange, strawberry",Freshness,2,"ResNet50, MobileNetV2, VGG16, EfficientNetB0",Public,III,100.0
+2,Ahmad et al. (2026),mango,Freshness,5,SE-DBIRNet (dual-path residual + SE),Public,III,99.2
+3,Cai et al. (2022),orange,Freshness,2,"PLS-DA, SVM, LS-SVM, KNN on GLCM",Request,II,98.8
+4,"Chen, M.-C. et al. (2022)","apple, orange, lemon",Quality,2,Tiny-YOLOv3 + CNN / autoencoder,None,II,–
+5,Cheng et al. (2022),tomato,Quality,4,YOLOv4,None,I,–
+6,Chuquimarca et al. (2023),banana,Maturity,4,"CIDIS CNN, synthetic pre-training",None,II,91.7
+7,Dao et al. (2023),tomato,Quality,2,CNN-YOLOv8,None,I,94.4
+8,Fahad et al. (2022),"apple, banana, guava, orange, lemon, tomato",Freshness,3,VGG16; YOLOv5m,Public,III,82.2
+9,Ismail & Malik (2022),"apple, banana",Quality,2,EfficientNet B0-B2 stack; EfficientNet-B2 embedded,None,I,99.5
+10,Jaramillo-Acevedo et al. (2020),avocado,Maturity,3,MLP on RGB means + GLCM,None,II,88.0
+11,Ji et al. (2023),apple,Quality,3,YOLOv5s + Swin Transformer,Request,I,94.0
+12,Kazi & Panda (2022),"apple, banana, orange",Freshness,2,"AlexNet, VGG16, ResNet-50 (not pretrained)",Public,III,99.7
+13,Khatun et al. (2024),dragon fruit,Maturity,2,ResNet-50,Public,I,98.0
+14,Kosasih et al. (2023),banana,Maturity,6,Naive Bayes / SVM on grayscale histogram statistics,None,II,86.67
+15,Kripa & Jeyalakshmi (2026),mango,Maturity,3,DenseNet201+Inception-ResNetV2+EfficientNetV2 fusion + biochemical encoder,Request,II,97.86
+16,Li et al. (2021),apple,Quality,3,Custom 6-conv CNN; Inception V3; HOG/GLCM+SVM,None,II,95.33
+17,Liang et al. (2022),apple,Quality,3,BiSeNetV2 + pruned YOLOv4,Request,I,92.42
+18,"Liu, C. et al. (2023)",passion fruit,Quality,4,ATC-YOLOv5,Request,II,–
+19,"Liu, X. et al. (2025)",plum,Quality,3,VGG16 + 1D-CNN + handcrafted features (Bi-Mod Hybrid Net),Request,II,100.0
+20,"Liu, Y. et al. (2024)",tomato,Maturity,3,VGG16 + 1D-CNN + LSTM fusion,None,II,99.4
+21,Mousse et al. (2024),tomato,Maturity,5,Superpixel+CNN detector; attention RNN/LSTM classifier,None,III,97.06
+22,Mukhiddinov et al. (2022),"apple, banana, orange, strawberry, mango",Freshness,2,Improved YOLOv4,Public,III,–
+23,Nguyen et al. (2024),"apple, pear",Quality,5,Mask R-CNN + image analysis,None,II,–
+24,Olisah et al. (2024),blackberry,Maturity,2,VGG16 twin-input bootstrap ensemble + stacking,Request,I,95.1
+25,Reka et al. (2024),"apple, banana, orange, papaya, guava",Freshness,2,"Basic CNN, VGG16, InceptionV3; RF/GNB on hue",None,III,95.0
+26,Sofian et al. (2024),"apple, banana, orange",Freshness,2,"EfficientNetV2-S, MobileNetV2, VGG19",Public,III,97.61
+27,Song et al. (2023),cherry,Freshness,4,Swin-T features + MLP,Request,I,98.5
+28,Sugumar et al. (2019),citrus,Maturity,2,KNN on colour and geometry,None,II,100.0
+29,Trieu & Thinh (2023),mango,Quality,3,Random forest,None,II,98.3
+30,Trinh & Nguyen (2023),pineapple,Maturity,n.r.,YOLOv5,Public,I,–
+31,Villaseñor-Aguilar et al. (2024),orange,Maturity,4,Takagi-Sugeno fuzzy / ANFIS,Public,II,–
+32,Wakchaure et al. (2024),custard apple,Maturity,5,K-means segmentation + SVM,Request,I,100.0
+33,"Wang, J. et al. (2022)",apple,Quality,4,Rule-based thresholds + CARS-PLS,Public,II,96.67
+34,"Wang, L. (2022)",kiwifruit,Quality,5,Deep extreme learning machine,None,II,97.5
+35,Wei et al. (2022),grape,Maturity,4,BPNN on colour features,Request,I,88.0
+36,Wu et al. (2026),avocado,Freshness,n.r.,GPT-4o + GLIP/SAM + BERT spectral encoder; ResNet/ViT/Swin-V2 heads,None,II,–
+37,Xie et al. (2024),sugar apple,Maturity,3,ECD-DeepLabv3+,Request,II,–
+38,Yang et al. (2024),banana,Freshness,3,ResNet-101,Request,II,98.8
+39,Yin et al. (2022),apple,Quality,5,OB-Net (double-branch ResNet-18),Request,II,95.64
+40,Zhou et al. (2021),strawberry,Maturity,7,YOLOv3,None,I,–
+41,Zhuang et al. (2019),banana,Maturity,4,"NB / LDA / SVM on colour, LBP, HOG",None,II,100.0

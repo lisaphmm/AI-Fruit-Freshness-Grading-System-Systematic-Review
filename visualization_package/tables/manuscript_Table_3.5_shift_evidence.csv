@@ -1,0 +1,8 @@
+﻿Study,Tier,Condition varied or compared,Performance (in-distribution → shifted),Δ (pp)
+Olisah et al. (2024),I,Synthetic rotation + zoom; rotation + zoom + brightness (not field acquisition),95.1 → 92.7; 95.1 → 90.2,2.4; 4.9
+Ismail & Malik (2022),I,Offline hold-out versus run-time test on a live system (30 apples; 32 bananas),Apple 99.2 → 96.7; banana 98.6 → 93.8,2.5; 4.8
+Ji et al. (2023),I,Conveyor speed −50% and +25% (baseline 4 fruit/s),94.0 → 95.6; 94.0 → 89.6,−1.6; 4.4
+Wu et al. (2026),II,"Synthetic Gaussian noise and colour jitter (ResNet-18; ordinal-label error, not accuracy)",MAE 7.26 → 7.68 (mixed noise),n/a
+Zhou et al. (2021),I,"UAV at 2 m versus 3 m (separate datasets); ground imaging with a different year, cultivar and camera","mAP 0.88 (2 m), 0.73 (3 m), 0.89 (ground)",n/a
+Chuquimarca et al. (2023),II,Real-only training versus synthetic pre-training plus real fine-tuning (training-data source),87.2 (real only); 91.7 (with synthetic),n/a
+Xie et al. (2024),II,Qualitative comparison of clean and noisy backgrounds; separate models per fruit type,No paired value (mIoU 89.95),n/a

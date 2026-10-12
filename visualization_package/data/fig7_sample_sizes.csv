@@ -1,0 +1,40 @@
+﻿id,study,sample_n,unit
+P001,Wu et al. (2026),12000,images (150 fruit)
+P005,Ahmad et al. (2026),4428,images
+P008,Li et al. (2021),3600,images (+300 test fruit)
+P009,Kripa & Jeyalakshmi (2026),600,observations (120 fruit)
+P010,Zhuang et al. (2019),321,images/fruit
+P011,"Liu, Y. et al. (2024)",856,images (214 fruit)
+P013,"Liu, X. et al. (2025)",2340,images (780 fruit)
+P015,Olisah et al. (2024),201,images (301 fruit)
+P017,Ismail & Malik (2022),8939,"images (8,639 apple + 300 banana)"
+P018,Wei et al. (2022),295,bunches/samples
+P019,Zhou et al. (2021),4859,images
+P020,Wakchaure et al. (2024),455,images
+P022,Jaramillo-Acevedo et al. (2020),130,fruit
+P025,Chuquimarca et al. (2023),3495,"real images (+161,280 synthetic)"
+P026,"Wang, L. (2022)",326,images
+P027,Xie et al. (2024),1000,images (30 fruit)
+P028,Abdullah (2025),5997,images
+P029,Ji et al. (2023),1244,images (300 online fruit)
+P030,Villasenor-Aguilar et al. (2024),75,fruit
+P031,"Liu, C. et al. (2023)",1114,images
+P033,Yang et al. (2024),600,images
+P034,Kosasih et al. (2023),45,images
+P035,Yin et al. (2022),11020,images
+P038,Song et al. (2023),4669,images
+P039,Cai et al. (2022),280,fruit
+P040,Dao et al. (2023),370,images (250 trial fruit)
+P041,Sugumar et al. (2019),650,images (claimed)
+P042,Trieu & Thinh (2023),732,fruit
+P043,"Wang, J. et al. (2022)",120,fruit (integrated trial)
+P044,Khatun et al. (2024),3780,images
+P046,Nguyen et al. (2024),1553,fruit (scald)
+P047,Liang et al. (2022),3000,images (194 test fruit)
+P050,"Chen, M.-C. et al. (2022)",6381,images
+P051,Trinh & Nguyen (2023),50000,images (claimed)
+P052,Cheng et al. (2022),2000,video frames
+P053,Fahad et al. (2022),60059,images
+P054,Kazi & Panda (2022),13599,images
+P055,Mukhiddinov et al. (2022),12000,images
+P056,Sofian et al. (2024),30357,images

@@ -1,0 +1,9 @@
+﻿domain,n_low,n_unclear,n_high,pct_low,pct_unclear,pct_high
+D1 Patient selection,9,21,11,22.0,51.2,26.8
+D2 Index test,6,21,14,14.6,51.2,34.1
+D3 Reference standard,9,8,24,22.0,19.5,58.5
+D4 Flow and timing,12,17,12,29.3,41.5,29.3
+Overall risk of bias,0,12,29,0.0,29.3,70.7
+A1 Sample/setting (applicability),12,14,15,29.3,34.1,36.6
+A2 Index test (applicability),33,0,8,80.5,0.0,19.5
+A3 Target condition (applicability),27,3,11,65.9,7.3,26.8

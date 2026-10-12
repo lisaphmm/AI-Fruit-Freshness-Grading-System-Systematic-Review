@@ -1,0 +1,32 @@
+﻿id,study,decision_levels,tier,family,best_accuracy
+P005,Ahmad et al. (2026),5,III,CNN,99.2
+P008,Li et al. (2021),3,II,CNN,95.33
+P009,Kripa & Jeyalakshmi (2026),3,II,CNN,97.86
+P010,Zhuang et al. (2019),4,II,CL,100.0
+P011,"Liu, Y. et al. (2024)",3,II,CNN,99.4
+P013,"Liu, X. et al. (2025)",3,II,CNN,100.0
+P015,Olisah et al. (2024),2,I,CNN,95.1
+P017,Ismail & Malik (2022),2,I,CNN,99.5
+P018,Wei et al. (2022),4,I,CL,88.0
+P020,Wakchaure et al. (2024),5,I,CL,100.0
+P022,Jaramillo-Acevedo et al. (2020),3,II,CL,88.0
+P024,Mousse et al. (2024),5,III,DET,97.06
+P025,Chuquimarca et al. (2023),4,II,CNN,91.7
+P026,"Wang, L. (2022)",5,II,CL,97.5
+P028,Abdullah (2025),2,III,CNN,100.0
+P029,Ji et al. (2023),3,I,TR,94.0
+P033,Yang et al. (2024),3,II,CNN,98.8
+P034,Kosasih et al. (2023),6,II,CL,86.67
+P035,Yin et al. (2022),5,II,CNN,95.64
+P036,Reka et al. (2024),2,III,CNN,95.0
+P038,Song et al. (2023),4,I,TR,98.5
+P039,Cai et al. (2022),2,II,CL,98.8
+P040,Dao et al. (2023),2,I,DET,94.4
+P041,Sugumar et al. (2019),2,II,CL,100.0
+P042,Trieu & Thinh (2023),3,II,CL,98.3
+P043,"Wang, J. et al. (2022)",4,II,CL,96.67
+P044,Khatun et al. (2024),2,I,CNN,98.0
+P047,Liang et al. (2022),3,I,DET,92.42
+P053,Fahad et al. (2022),3,III,DET,82.2
+P054,Kazi & Panda (2022),2,III,CNN,99.7
+P056,Sofian et al. (2024),2,III,CNN,97.61

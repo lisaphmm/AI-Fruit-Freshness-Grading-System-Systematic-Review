@@ -1,0 +1,31 @@
+﻿panel,category,n_studies
+species,apple,14
+species,banana,11
+species,orange,9
+species,mango,5
+species,tomato,5
+species,strawberry,3
+species,avocado,2
+species,custard apple,2
+species,guava,2
+species,lemon,2
+species,plum,1
+species,blackberry,1
+species,grape,1
+species,kiwifruit,1
+species,passion fruit,1
+species,papaya,1
+species,cherry,1
+species,citrus,1
+species,dragon fruit,1
+species,pear,1
+species,pineapple,1
+model_family,FM,1
+model_family,CNN,15
+model_family,CL,11
+model_family,DET,10
+model_family,SEG,2
+model_family,TR,2
+task,Freshness,11
+task,Quality,14
+task,Maturity,16

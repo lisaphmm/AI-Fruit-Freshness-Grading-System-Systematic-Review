@@ -1,0 +1,20 @@
+﻿id,study,reason_code,detail
+P002,Xuan et al. (2022),a,"Hyperspectral-only input; continuous SSC, firmness and size regression"
+P003,Zhu et al. (2025),a,"Hyperspectral-only input; colour, SSC and firmness regression"
+P006,Skolik et al. (2019),a,ATR-FTIR spectroscopy; no image predictor
+P007,Ibba et al. (2021),a,Bioimpedance; no image predictor
+P014,Lee et al. (2024),a,Destructive GC-MS metabolomics; no image predictor
+P016,Ktenioudaki et al. (2022),a,Hyperspectral-only input; continuous quality and shelf-life regression
+P021,"Chen, Y. J. et al. (2022)",a,Acoustic signals; no image predictor
+P032,Worasawate et al. (2022),a,"Point colour sensor, weight and capacitance; not camera images"
+P045,Tan et al. (2025),a,Raman spectroscopy of excised peel
+P048,Brilliantina et al. (2026),a,"Gas, thermal and acoustic sensors; not image-based"
+P057,Masuduzzaman et al. (2026),a,Temperature/humidity sensor model; no learned image classifier
+P004,Singh et al. (2026),b,Nutritional-quality regression; grades derived from destructive nutrient thresholds
+P012,Nouri et al. (2025),b,Continuous firmness regression from active vibration video
+P049,Ibrahim et al. (2016),b,Shape and mass sorting only
+P058,Sonwani et al. (2022),b,Produce-type identification plus sensor alerts; no validated freshness endpoint
+P023,Osman et al. (2022),c,Descriptive clustering and photogrammetry; no held-out classification metric
+P037,Ratprakhon et al. (2020),c,Calibrated colour measurement; no trained classifier or accuracy
+P059,Haidar et al. (2012),d,Published 2012 (outside 2016-2026 window); date-variety identification
+P060,Kavdir & Guyer (2004),d,"Published 2004 (outside window); monochrome NIR defect classification, not RGB"
